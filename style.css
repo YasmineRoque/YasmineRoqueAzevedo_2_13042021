@@ -228,7 +228,7 @@ h3 {
 }
 .principal p {
     font-size: 14px;
-    padding: 10px;
+    
 }
 .description {
     padding: 7px;
@@ -311,7 +311,7 @@ h3 {
     font-size: 19px;
 }
 .detail p {
-    padding-top: 10px;
+    padding-top: 0px;
 }
 /* ...............3rd section Activités à Marseille................*/
 .activity {
@@ -462,46 +462,57 @@ li {
 }
 
 /* .................. Version mobile....................   */
+
 @media screen and (max-width: 500px) {
-body {
+ body {
+
+ }
   
-}
+
 header {
 
 }
 
  header .container {
-    
+    display: flex;
 }
-header .container > a {
-    order: 2;
-    flex-grow: 1;
-    text-align: right;
-    margin: 0;
-}
+
 
 /* logo */
 
 .logo 
 {  
-    order: 1
+    order: 1;
+    margin-right: 30px;
+    padding: 7px 50px 0 2px;
+    width: 100px;
 }
 
 
 .ancres {
     order: 3;
-    margin: 20px 30px;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    padding-top: 30px;
 }
 .both {
     margin: 0;
-    padding-bottom: 15px;
+    padding-bottom: 18px;
     border-bottom: 3px solid blue;
     border-top: none;
+    padding-right: 5px;
+    width: 50%;
+}
+.ancres .both {
+  border-bottom: 3px solid blue
 }
 .login {
     order: 2;
+    margin-top: 15px;
+    display: grid;
+    flex-grow: 1;
     text-align: right;
-    margin: 0
 }
 /*         1st section       */
      /* search */
@@ -523,21 +534,30 @@ header .container > a {
     flex-wrap: wrap;
     flex-direction: column-reverse;
 }
-
+.first{
+    margin-right: 0;
+    margin-bottom: 0;
+    width: 98%;
+}
 .photos {
     height: auto;
+}
+.picture{
+    width: 97%;
 }
 
          /* ............ aside................ */
 .second {
-    width: 100%;
     margin-bottom: 30px;
 }
 .popular {
     width: 98%;
 }
         /* ....3rd section Activités à Marseille......*/
-
+.activity{
+  margin: 0;
+  padding-top: 20px;
+}
 .marseille {
     flex-wrap: wrap;
 }
@@ -583,7 +603,5 @@ figure.pic.parclong {
     display: flex;
     flex-direction: column;
 }
+/*         for trying      */
 
-
-
-}
