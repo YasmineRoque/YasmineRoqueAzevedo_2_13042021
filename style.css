@@ -462,16 +462,9 @@ li {
 }
 
 /* .................. Version mobile....................   */
+                                           /*  First: Small version */
 
 @media screen and (max-width: 500px) {
- body {
-
- }
-  
-
-header {
-
-}
 
  header .container {
     display: flex;
@@ -526,7 +519,7 @@ header {
   width: 100%; 
 }
 
-/* .......  2nd section Hebergement à Marseille ...... */
+/* ... 2nd section Hebergement à Marseille ... */
 
 .principal .container {
     flex-wrap: wrap;
@@ -544,14 +537,15 @@ header {
     width: 97%;
 }
 
-         /* ............ aside................ */
+/* ... aside... */
 .second {
     margin-bottom: 30px;
 }
 .popular {
     width: 98%;
 }
-        /* ....3rd section Activités à Marseille......*/
+/* ....3rd section Activités à Marseille......*/
+
 .activity{
   margin: 0;
   padding-top: 20px;
@@ -602,10 +596,8 @@ figure.pic.parclong {
     flex-direction: column;
 }
 }
-/*         for trying      */
-
-
-
+                                              /*  Second: Medium version */
+                                       
 
 @media screen and ( min-width: 500px) and (max-width: 699px) {
 
@@ -648,7 +640,7 @@ figure.pic.parclong {
   width: 100%; 
 }
 
-/* .......  2nd section Hebergement à Marseille ...... */
+/* ...2nd section Hebergement à Marseille ... */
 
 .principal .container {
     flex-direction: column-reverse;
@@ -665,7 +657,7 @@ figure.pic.parclong {
     width: 97%;
 }
 
-         /* ............ aside................ */
+/* ... aside... */
 .second {
     margin-bottom: 30px;
     width: 97%;
@@ -674,7 +666,7 @@ figure.pic.parclong {
     width: 85%;
     margin-left: 30px;
 }
-        /* ....3rd section Activités à Marseille......*/
+ /* ....3rd section Activités à Marseille...*/
 .activity{
   padding-top: 20px;
 }
@@ -715,6 +707,7 @@ figure.pic.parclong {
 
 }
 
+                                       /*  Third: Large version */
 
 @media screen and ( min-width: 700px) and (max-width: 999px) {
 
@@ -734,7 +727,7 @@ figure.pic.parclong {
   width: 100%; 
 }
 
-/* .......  2nd section Hebergement à Marseille ...... */
+/* ...2nd section Hebergement à Marseille ... */
 
 .principal .container {
     flex-direction: column-reverse;
@@ -752,7 +745,7 @@ figure.pic.parclong {
     width: 97%;
 }
 
-         /* ............ aside................ */
+/* ...aside... */
 .second {
     margin-bottom: 30px;
     width: 90%;
@@ -761,7 +754,8 @@ figure.pic.parclong {
     width: 85%;
     margin-left: 30px;
 }
-        /* ....3rd section Activités à Marseille......*/
+
+/* ...3rd section Activités à Marseille...*/
 .activity {
     padding-top: 20px;
     width: 90%;
@@ -785,5 +779,40 @@ figure.pic.parclong {
     flex-direction: column;
 }
 
+}
+                                         /*  Fourth: xLarge version */
+
+@media screen and ( min-width: 1000px) and (max-width: 1360px) {
+
+ /* ...2nd section Hebergement à Marseille ... */
+.principal .container {
+    display: flex;
+}
+
+.photos {
+    flex-wrap: wrap;
+    height: auto;
+}
+.picture{
+    width: 39%;
+    
+}
+
+ /* ... aside... */
+
+.mostpopular {
+    margin-top: 80px;
+}
+
+.mostpopular img {
+    width: 43%;
 
 }
+
+.mostpopular:nth-child(2) {
+    margin-top: 22px;
+}
+
+
+}
+
