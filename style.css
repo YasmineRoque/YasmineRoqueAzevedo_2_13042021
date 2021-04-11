@@ -773,7 +773,7 @@ figure.pic.parclong {
 }
                                          /*  Fourth: xLarge version */
 
-@media screen and ( min-width: 1000px) and (max-width: 1360px) {
+@media screen and ( min-width: 999px) and (max-width: 1360px) {
 
  /* ...2nd section Hebergement à Marseille ... */
 .principal .container {
