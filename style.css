@@ -28,10 +28,6 @@ header .container {
     flex-wrap: wrap;
 }
 
-
-
-
-
 /* logo */
 
 .logo 
@@ -109,7 +105,7 @@ label {
   width: 120px;
 
 }
-     /* filters */
+ /* filters */
 
 .filters {
   display: flex;
@@ -170,7 +166,7 @@ label {
     font-size: 18px;
     padding: 4px;
 }
-/* .......  2nd section Hebergement à Marseille ...... */
+/* ... 2nd section Hebergement à Marseille ... */
 .principal {
     margin-top: 50px;
 }
@@ -255,7 +251,7 @@ h3 {
     font-size: 13px;
     padding-top: 10px;
 }
-         /* ............ aside................ */
+/* ... aside... */
 .second {
     background: #F2F2F2;
     border-radius: 20px;
@@ -313,15 +309,10 @@ h3 {
 .detail p {
     padding-top: 0px;
 }
-/* ...............3rd section Activités à Marseille................*/
+/* ...3rd section Activités à Marseille...*/
 .activity {
     margin-top: 50px;
     padding-bottom: 80px;
-}
-
-
-.container h2 {
-
 }
 .marseille {
     display: flex;
@@ -431,7 +422,7 @@ figure.pic.parclong {
     padding: 10px;
 }
 
-/*         4th section footer      */
+/*    4th section footer      */
 #footer {
     background: #f2f2f2;
     padding: 40px 0;
@@ -461,7 +452,7 @@ li {
     padding-right: 120px;
 }
 
-/* .................. Version mobile....................   */
+/* ................... Version mobile....................   */
                                            /*  First: Small version */
 
 @media screen and (max-width: 500px) {
