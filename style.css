@@ -213,6 +213,7 @@ h3 {
     border-radius: 10% 10% 0 0;
     height: 60%;
     box-sizing: border-box;
+    object-fit: cover;
 }
 .show {
     margin-bottom: 15px;
@@ -298,6 +299,7 @@ h3 {
     width: 144px;
     margin-top: 5px;
     border-radius: 20px 0 0px 20px;
+    object-fit: cover;
 }
 .detail {
     font-size: 15px;
@@ -322,7 +324,6 @@ h3 {
 .big, .small {
     margin: 15px;
     cursor: pointer;
-    object-fit: cover;
     height: 500px;
     width: 100%;
 }
@@ -664,32 +665,51 @@ figure.pic.parclong {
 .marseille {
     flex-wrap: wrap;
 }
-.big, .small {
-    height: 100%;
-}
 
 
 .fort {
-    height: 100%;
+    height: 250px;
 }  
 
 .frioul {
-   height: 100%;
+   height: 250px;
 }
-.frioul img {
-    height: 100%;
-}  
+ 
 
 .notredame{
-    height: 100%;
+    height: 250px;
 }
 
 figure.pic.parclong {
     width: 100%;
+    height: 250px;
 }
 
 
+.small {
+    margin-bottom: 30px;
+}
 
+
+.big {
+    height: 250px;
+    margin-top: 30px;
+}
+.big img {
+    height: 210px;
+}
+.fort img {
+    height: 210px;
+}
+.frioul img {
+    height: 210px;
+}
+.notredame img {
+    height: 210px;
+}
+.parclong img {
+    height: 210px;
+}
 /*         4th section footer      */
 
 #footer .container {
@@ -733,7 +753,10 @@ figure.pic.parclong {
     height: auto;
 }
 .picture{
-    width: 97%;
+    width: 40%;
+}
+.picture img {
+  object-fit: cover;
 }
 
 /* ...aside... */
