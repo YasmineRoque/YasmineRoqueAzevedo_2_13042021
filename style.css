@@ -2,137 +2,127 @@ html
 {
     color: black;
 }
-
 body
 {
     background-color: #ffffff;
     font-family: 'Raleway', sans-serif;    
 }
 @font-face{
-  font-family: "Raleway",sans-serif;
-  font-weight:400;
+    font-family: "Raleway",sans-serif;
+    font-weight:400;
 }
 section h1, section h2, section h3, footer h3 {
-  
-  font-weight:bolder;
+    font-weight:bolder;
 }
 header, section {
-  margin: 0 15px 0 15px;
+    margin: 0 15px 0 15px;
 }
- 
-
 /* header */
 header .container {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
 }
-
 /* logo */
-
 .logo 
 {  
-  height: 40px;
+    height: 40px;
 }
-
 .ancres {
-  display: flex;
-  padding: 0;
-  margin: 0;
-  margin-left: auto;
-  color: #0065FC
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-left: auto;
+    color: #0065FC
 }
 .both {
-  padding: 1rem;
-  font-weight: 500;
-  text-align: center;
-  margin-left: 2rem;
-  
+    padding: 1rem;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 2rem; 
 }
 .both:hover
 {
     color: #0065FC;
     border-top: solid 2px blue;
 }
+.both:visited {
+    color: black;
+}
 .login {
-  display: flex;
-  align-items: center;
-  color: #0065FC;
-  font-weight: 500;
-  margin-right: 20px;
-  text-decoration: none;
-  margin-left: 2rem;
+    display: flex;
+    align-items: center;
+    color: #0065FC;
+    font-weight: 500;
+    margin-right: 20px;
+    text-decoration: none;
+    margin-left: 2rem;
 }
 /*         1st section       */
      /* search */
 .searching {
-  margin-top: 50px;
+    margin-top: 50px;
 }
 h1.title {
     font-size: 22px;
 }
-
 .search {
-  display: flex;
-  margin-top: 50px;
-
+    display: flex;
+    margin-top: 50px;
 }
 label {
-  background-color: #F2F2F2;
-  text-align: center;
-  border-radius: 15px 0px 0px 15px;
-  padding: 20px;
+    background-color: #F2F2F2;
+    text-align: center;
+    border-radius: 15px 0px 0px 15px;
+    padding: 20px;
 }
 .map {
-  background-color: #F2F2F2;
-  border-radius: 15px 0px 0px 15px;
-  padding: 18px;
+    background-color: #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
+    padding: 18px;
 }
 .textsearch {
-  border: 1.5px solid #f2f2f2;
-  padding: 0 1rem;
-  font-family: 'raleway', sans-serif;
-  font-weight: bold;
-  font-size: 17px;
- 
+    border: 1.5px solid #f2f2f2;
+    padding: 0 1rem;
+    font-family: 'raleway', sans-serif;
+    font-weight: bold;
+    font-size: 17px; 
 }
 .logosearch {
-  background-color: blue;
-  color: white;
-  border: 0;
-  margin-right: 10px;
-  border-radius: 0px 15px 15px 0px;
-  width: 120px;
-
+    background-color: blue;
+    color: white;
+    border: 0;
+    margin-right: 10px;
+    border-radius: 0px 15px 15px 0px;
+    width: 120px;
 }
  /* filters */
-
 .filters {
-  display: flex;
-  align-items: center;
-  margin-top: 50px;
-  flex-wrap: wrap;
-  font-weight: bolder;
-  font-size: 14px;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    font-weight: bolder;
+    font-size: 14px;
 }
 .titlef{
-  display: flex;
-  width: 68px;
-  margin: 1rem 0.4rem 1.7rem 0;
-  align-items: center;
-  font-size: 20px;
-  margin-top: 20px  
+    display: flex;
+    width: 68px;
+    margin: 1rem 0.4rem 1.7rem 0;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 20px  
 }
 .item {
-  display: flex;
-  align-items: center;
-  border: 2px solid #f2f2f2;
-  border-radius: 50px;
-  padding: 0 3px 0 0;
-  padding-right: 20px;
-  height: 45px;
-  margin: 10px 20px 13px 0;
-  font-size: 18px;
+    display: flex;
+    align-items: center;
+    border: 2px solid #f2f2f2;
+    border-radius: 50px;
+    padding: 0 3px 0 0;
+    padding-right: 20px;
+    height: 45px;
+    margin: 10px 20px 13px 0;
+    font-size: 18px;
 }
 .item:hover {
     background: #0065FC;
@@ -149,15 +139,14 @@ label {
     padding: 16px;
 }
 .filtre{
-   margin: 0.1rem;
+    margin: 0.1rem;
 }
 /* information */
 .info{
-  display: flex;
-  align-items: baseline;
-  margin-top: 20px;
+    display: flex;
+    align-items: baseline;
+    margin-top: 20px;
 }
-
 .logoinfo {
     color: #0065FC;
     border: 2px solid #f2f2f2;
@@ -187,8 +176,6 @@ h3 {
     margin-right: 25px;
     margin-bottom: 0;
 }
-
-
 .titre {
     padding: 10px;
     margin-bottom: 0px
@@ -224,8 +211,7 @@ h3 {
     font-weight: bold;
 }
 .principal p {
-    font-size: 14px;
-    
+    font-size: 14px;    
 }
 .description {
     padding: 7px;
@@ -240,7 +226,6 @@ h3 {
 }
 .stars {
     margin: 2px;
-
 }
  .bleu {
     color: blue;
@@ -292,7 +277,6 @@ h3 {
     padding: 1px;
     margin-bottom: 30px;
 }
-
 .mostpopular img {
     margin: 5px;
     height: 158px;
@@ -340,22 +324,17 @@ a {
     font-size: 12px;
     color: black;
 }
-
-
 .big img {
     border-radius: 15px 15px 0px 0px;
     height: 450px;
     width: 100%;
     object-fit: cover;
 } 
-
 .big h3 {
     margin: 0;
     margin-left: 10px;
     padding: 10px;
 }
-
-
 .fort {
     border-radius: 15px 15px 15px 15px;
     box-shadow: 0px 0px 5px 0px;
@@ -370,7 +349,6 @@ a {
     border-radius: 15px 15px 0 0;
     object-fit: cover;
 }
- 
  .fort  h3 {
     margin: 0;
     margin-left: 10px;
@@ -385,13 +363,11 @@ a {
     height: 155px;
     width: 100%;
 }
-
 .frioul h3 {
     margin: 0;
     margin-left: 10px;
     padding: 10px;
 }
-
 .notredame{
     border-radius: 15px 15px 15px 15px;
     box-shadow: 0px 0px 5px 0px;
@@ -402,7 +378,6 @@ a {
     height: 185px;
     width: 100%;
 }
-
 .notredame h3 {
     margin: 0;
     margin-left: 10px;
@@ -422,7 +397,6 @@ figure.pic.parclong {
     margin-left: 10px;
     padding: 10px;
 }
-
 /*    4th section footer      */
 #footer {
     background: #f2f2f2;
@@ -435,7 +409,6 @@ figure.pic.parclong {
 .aboutit {
   padding-bottom: 40px;
   padding-right: 120px;
-
 }
 #footer h4 {
   padding-left: 40px;
@@ -452,19 +425,13 @@ li {
     padding-bottom: 40px;
     padding-right: 120px;
 }
-
 /* ................... Version mobile....................   */
                                            /*  First: Small version */
-
 @media screen and (max-width: 500px) {
-
  header .container {
     display: flex;
 }
-
-
 /* logo */
-
 .logo 
 {  
     order: 1;
@@ -472,8 +439,6 @@ li {
     padding: 7px 50px 0 2px;
     width: 100px;
 }
-
-
 .ancres {
     order: 3;
     margin: 0;
@@ -489,7 +454,6 @@ li {
     padding-right: 5px;
     width: 50%;
 }
-
 .login {
     order: 2;
     margin-top: 15px;
@@ -499,20 +463,14 @@ li {
 }
 /*         1st section       */
      /* search */
-
-
 .textsearch {
-  width: 200px;
- 
+  width: 200px; 
 }
  /* filters */
-
 .titlef{
   width: 100%; 
 }
-
 /* ... 2nd section Hebergement à Marseille ... */
-
 .principal .container {
     flex-wrap: wrap;
     flex-direction: column-reverse;
@@ -528,7 +486,6 @@ li {
 .picture{
     width: 97%;
 }
-
 /* ... aside... */
 .second {
     margin-bottom: 30px;
@@ -537,7 +494,6 @@ li {
     width: 98%;
 }
 /* ....3rd section Activités à Marseille......*/
-
 .activity{
   margin: 0;
   padding-top: 20px;
@@ -553,34 +509,25 @@ li {
     box-shadow: 0px 0px 5px 0px;
     border-radius: 15px 15px 15px 15px;
  }
-
 .big img {
     height: 100%;
 } 
-
-
 .fort {
     height: 100%;
 }  
-
 .frioul {
    height: 100%;
 }
 .frioul img {
     height: 100%;
 }  
-
 .notredame{
     height: 100%;
 }
-
 figure.pic.parclong {
     width: 100%;
     height: 100%;
 }
-
-
-
 /*         4th section footer      */
 
 #footer .container {
@@ -589,21 +536,13 @@ figure.pic.parclong {
 }
 }
                                               /*  Second: Medium version */
-                                       
-
 @media screen and ( min-width: 500px) and (max-width: 699px) {
-
-
-
 /* logo */
-
 .logo 
 {  
     padding: 7px 50px 0 2px;
     width: 100px;
 }
-
-
 .ancres {
     order: 3;
     width: 100%;
@@ -617,23 +556,18 @@ figure.pic.parclong {
     padding-right: 5px;
     width: 50%;
 }
-
 .login {
     margin-top: 15px;
     display: grid;
     flex-grow: 1;
     text-align: right;
 }
-/*         1st section       */
-  
+/*         1st section       */ 
  /* filters */
-
 .titlef{
   width: 100%; 
 }
-
 /* ...2nd section Hebergement à Marseille ... */
-
 .principal .container {
     flex-direction: column-reverse;
 }
@@ -648,7 +582,6 @@ figure.pic.parclong {
 .picture{
     width: 97%;
 }
-
 /* ... aside... */
 .second {
     margin-bottom: 30px;
@@ -665,32 +598,22 @@ figure.pic.parclong {
 .marseille {
     flex-wrap: wrap;
 }
-
-
 .fort {
     height: 250px;
 }  
-
 .frioul {
    height: 250px;
 }
- 
-
 .notredame{
     height: 250px;
 }
-
 figure.pic.parclong {
     width: 100%;
     height: 250px;
 }
-
-
 .small {
     margin-bottom: 30px;
 }
-
-
 .big {
     height: 250px;
     margin-top: 30px;
@@ -711,42 +634,32 @@ figure.pic.parclong {
     height: 210px;
 }
 /*         4th section footer      */
-
 #footer .container {
     flex-direction: column;
 }
 
 }
-
                                        /*  Third: Large version */
 
 @media screen and ( min-width: 700px) and (max-width: 999px) {
-
 /* logo */
-
 .logo 
 {  
     padding: 7px 50px 0 2px;
     width: 100px;
 }
-
-/*         1st section       */
-  
+/*         1st section       */ 
  /* filters */
-
 .titlef{
   width: 100%; 
 }
-
 /* ...2nd section Hebergement à Marseille ... */
-
 .principal .container {
     flex-direction: column-reverse;
     display: flex;
     padding-left: 40px;
 }
-.first{
-  
+.first{  
     width: 90%;
 }
 .photos {
@@ -758,7 +671,6 @@ figure.pic.parclong {
 .picture img {
   object-fit: cover;
 }
-
 /* ...aside... */
 .second {
     margin-bottom: 30px;
@@ -768,7 +680,6 @@ figure.pic.parclong {
     width: 85%;
     margin-left: 30px;
 }
-
 /* ...3rd section Activités à Marseille...*/
 .activity {
     padding-top: 20px;
@@ -792,41 +703,29 @@ figure.pic.parclong {
 #footer .container {
     flex-direction: column;
 }
-
 }
                                          /*  Fourth: xLarge version */
-
 @media screen and ( min-width: 999px) and (max-width: 1360px) {
-
  /* ...2nd section Hebergement à Marseille ... */
 .principal .container {
     display: flex;
 }
-
 .photos {
     flex-wrap: wrap;
     height: auto;
 }
 .picture{
-    width: 39%;
-    
+    width: 39%;   
 }
-
  /* ... aside... */
-
 .mostpopular {
     margin-top: 80px;
 }
-
 .mostpopular img {
     width: 43%;
-
 }
-
 .mostpopular:nth-child(2) {
     margin-top: 22px;
 }
-
-
 }
 
