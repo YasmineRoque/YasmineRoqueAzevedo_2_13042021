@@ -202,6 +202,7 @@ h3 {
     height: 60%;
     box-sizing: border-box;
     object-fit: cover;
+    cursor: pointer;
 }
 .show {
     margin-bottom: 15px;
@@ -284,6 +285,7 @@ h3 {
     margin-top: 5px;
     border-radius: 20px 0 0px 20px;
     object-fit: cover;
+    cursor: pointer;
 }
 .detail {
     font-size: 15px;
