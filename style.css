@@ -93,7 +93,11 @@ label {
     border-radius: 0px 15px 15px 0px;
     width: 120px;
 }
- /* filters */
+.logosearch :hover {
+    font-size: 18px;
+    font-weight: bold;
+} 
+/* filters */
 .filters {
     display: flex;
     align-items: center;
@@ -249,8 +253,7 @@ h3 {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 16px;
     align-items: baseline;
 }
 .titleaside h2 {
@@ -268,7 +271,7 @@ h3 {
     margin: 12px;
     height: 170px;
     border-radius: 27px 20px 20px 27px;
-    box-shadow: 3px 3px 20px 3px;
+    box-shadow: 3px 3px 8px 0px;
     cursor: pointer;
     object-fit: cover;
     padding: 1px;
@@ -301,6 +304,9 @@ h3 {
     display: flex;
     padding-top: 20px;
     justify-content: flex-end;
+}
+.activity h2 {
+    padding-left: 14px;
 }
 .big, .small {
     margin: 15px;
@@ -533,7 +539,7 @@ figure.pic.parclong {
 }
 }
                                               /*  Second: Medium version */
-@media screen and ( min-width: 500px) and (max-width: 699px) {
+@media screen and ( min-width: 500px) and (max-width: 700px) {
 /* logo */
 .logo 
 {  
@@ -727,3 +733,13 @@ figure.pic.parclong {
 
 }
 
+
+
+
+@media screen and ( min-width: 1360px) {
+  
+  .picture {
+    width: 27%;
+    height: 45%;
+  }
+}
