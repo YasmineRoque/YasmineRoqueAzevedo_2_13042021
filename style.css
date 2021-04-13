@@ -303,7 +303,7 @@ h3 {
 .marseille {
     display: flex;
     padding-top: 20px;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 h2 {
     padding-left: 14px;
