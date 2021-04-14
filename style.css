@@ -744,14 +744,14 @@ figure.pic.ParcLong {
 }
                                        /*  Sixth: xxsmall version */
 @media screen and ( min-width: 320px) and (max-width: 370px){
-body {
-    width: 142%
+.searching .container {
+    width: 102%;
 }
 /* logo */
 .logo 
 {  
     order: 1;
-    padding: 7px 50px 0 2px;
+    padding: 7px 30px 0 2px;
 }
 .ancres {
     order: 3;
@@ -759,11 +759,22 @@ body {
 }
 .login {
     order: 2;
-    margin-top: 15px;
-    display: grid;
-    flex-grow: 1;
-    text-align: right;
-    padding: 13px 5px 0px 10px;
-    font-size: 19px;
+    margin: 0;
+}
+label.map {
+    width: 5px;
+}
+input.TextSearch {
+    width: 166px;
+    padding: 3px;
+}
+button.LogoSearch {
+    width: 78px;
+}
+.MostPopular {
+    width: 93%;
+}
+.MostPopular img {
+    width: 41%;
 }
 }
