@@ -29,6 +29,6 @@ Cahier des charges: <br/>
 
 12- Le site devra être compatible avec les dernières versions de Chrome et Firefox.
 
-
+![La photo de la maquetee](images/Reservia.png)
 
 
